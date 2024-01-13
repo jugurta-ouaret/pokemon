@@ -70,15 +70,15 @@ def main_menu():
 
         MENU_MOUSE_POS = pygame.mouse.get_pos()
 
-        MENU_TEXT = get_font(100).render("POKÉWORLD", True, "#f9cc36")
+        MENU_TEXT = get_font(100).render("", True, "#f9cc36")
         MENU_RECT = MENU_TEXT.get_rect(center=(640, 100))
 
         PLAY_Bouton = Bouton(image=pygame.image.load("../pokemon/Assets/menu/Play_Rect.png"), pos=(640, 250), 
-                            text_input="NOUVELLE PARTIE", font=get_font(60), base_color="White", hovering_color="#a83676")
+                            text_input="NOUVELLE PARTIE", font=get_font(60), base_color="White", hovering_color="#c047c0")
         REPRENDRE_Bouton = Bouton(image=pygame.image.load("../pokemon/Assets/menu/Reprendre_Rect.png"), pos=(640, 400), 
-                            text_input="REPRENDRE", font=get_font(60), base_color="White", hovering_color="#a83676")
+                            text_input="REPRENDRE", font=get_font(60), base_color="White", hovering_color="#c047c0")
         QUIT_Bouton = Bouton(image=pygame.image.load("../pokemon/Assets/menu/Quitter_Rect.png"), pos=(640, 550), 
-                            text_input="QUITTER", font=get_font(60), base_color="White", hovering_color="#a83676")
+                            text_input="QUITTER", font=get_font(60), base_color="White", hovering_color="#c047c0")
 
         SCREEN.blit(MENU_TEXT, MENU_RECT)
 
