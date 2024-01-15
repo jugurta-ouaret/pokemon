@@ -2,7 +2,7 @@
               {"Niveau1" :{ "nom" :"Salameche " ,"type":["Feu"], "image":"../pokemon/Assets/images/pokemon_images/1_Salameche.png"},
                "Niveau2" :{ "nom" :"Reptincel " ,"type":["Feu"],  "image":"../pokemon/Assets/images/pokemon_images/1_Reptincel.png"},
                "Niveau3" :{ "nom" :"Dracaufeu" ,"type":["Feu", "Vol"], "image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu.png"},
-               "Niveau4" :{ "nom" :" Dracaufeu Gigamax" ,"type":["Feu" , "Vol"], "image":"../pokemon/Assets/images/pokemon_images/Dracaufeu Gigamax.png"}
+               "Niveau4" :{ "nom" :" Dracaufeu Gigamax" ,"type":["Feu" , "Vol"], "image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu Gigamax.png"}
     } 
 ],
 
