@@ -1,16 +1,16 @@
 {"pokemon1" :[{"puissance_attaque": 52},
-              {"Niveau1" :{ "nom" :"Salameche " ,"type":["Feu"], "image":"../pokemon/Assets/images/pokemon_images/Salameche.png"},
-               "Niveau2" :{ "nom" :"Reptincel " ,"type":["Feu"],  "image":"../pokemon_images/Reptincel.png"},
-               "Niveau3" :{ "nom" :"Dracaufeu" ,"type":["Feu", "Vol"], "image":"../pokemon_images/Dracaufeu.png"},
-               "Niveau4" :{ "nom" :" Dracaufeu Gigamax" ,"type":["Feu" , "Vol"], "image":"../pokemon_images/Dracaufeu Gigamax.png"}
+              {"Niveau1" :{ "nom" :"Salameche " ,"type":["Feu"], "image":"../pokemon/Assets/images/pokemon_images/1_Salameche.png"},
+               "Niveau2" :{ "nom" :"Reptincel " ,"type":["Feu"],  "image":"../pokemon/Assets/images/pokemon_images/1_Reptincel.png"},
+               "Niveau3" :{ "nom" :"Dracaufeu" ,"type":["Feu", "Vol"], "image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu.png"},
+               "Niveau4" :{ "nom" :" Dracaufeu Gigamax" ,"type":["Feu" , "Vol"], "image":"../pokemon/Assets/images/pokemon_images/Dracaufeu Gigamax.png"}
     } 
 ],
 
 "pokemon2" :[{"puissance_attaque": 48},
-             {"Niveau1" :{ "nom" :"Carapuce" ,"type":["Eau"], "image":"../pokemon_images/Carcapuce.png"},
-              "Niveau2" :{ "nom" :"Carabaffe" ,"type":["Eau"],  "image":"../pokemon_images/Carabaffe.png"},
-              "Niveau3" :{ "nom" :"Tortank" ,"type":["Eau"], "image":"../pokemon_images/Tortank.png"},
-              "Niveau4" :{ "nom" :"Tortank Gigamax" ,"type":["Eau"], "image":"../pokemon_images/Tortank Gigamax.png"}
+             {"Niveau1" :{ "nom" :"Carapuce" ,"type":["Eau"], "image":"../pokemon_images/2_Carcapuce.png"},
+              "Niveau2" :{ "nom" :"Carabaffe" ,"type":["Eau"],  "image":"../pokemon_images/2_Carabaffe.png"},
+              "Niveau3" :{ "nom" :"Tortank" ,"type":["Eau"], "image":"../pokemon_images/2_Tortank.png"},
+              "Niveau4" :{ "nom" :"Tortank Gigamax" ,"type":["Eau"], "image":"../pokemon_images/2_Tortank Gigamax.png"}
             }            
 ],
 
