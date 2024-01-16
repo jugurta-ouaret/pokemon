@@ -22,3 +22,59 @@
             }            
 ]
 }
+
+
+{
+  "1":[ 
+         { "Niveau" :[ 
+                       {"1":{"nom" :"Salameche" ,"type":["Feu"], "attaque": 52,"image":"../pokemon/Assets/images/pokemon_images/1_Salameche.png"}},
+                       {"2":{"nom" :"Reptincel" ,"type":["Feu"], "attaque": 62,"image":"../pokemon/Assets/images/pokemon_images/1_Reptincel.png"}},
+                       {"3":{"nom" :"Dracaufeu" ,"type":["Feu" ,"Vol"], "attaque": 82,"image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu.png"}},
+                       {"4":{"nom" :"Dracaufeu Gigamax" ,"type":["Feu","Vol"], "attaque": 99,"image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu Gigamax.png"}}
+                      ] 
+          } 
+      ],
+  
+  "2":[ 
+      { "Niveau" :[ 
+                       {"1":{"nom" :"Carapuce" ,"type":["Eau"], "attaque": 48,"image":"../pokemon/Assets/images/pokemon_images/2_Carapuce.png"}},
+                       {"2":{"nom" :"Carabaffe" ,"type":["Eau"], "attaque": 52,"image":"../pokemon/Assets/images/pokemon_images/2_Carabaffe.png"}},
+                       {"3":{"nom" :"Tortank" ,"type":["Eau"], "attaque": 75,"image":"../pokemon/Assets/images/pokemon_images/2_Tortank.png"}},
+                       {"4":{"nom" :"Tortank Gigamax" ,"type":["Eau"], "attaque": 95,"image":"../pokemon/Assets/images/pokemon_images/2_Tortank Gigamax.png"}}
+                      ] 
+          } 
+   ],
+  
+   "3":[ 
+      { "Niveau" :[ 
+          {"1":{"nom" :"Abra" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Abra.png"}},
+          {"2":{"nom" :"Alakazem" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Alakazam.png"}},
+          {"3":{"nom" :"Kadabra" ,"type":["",""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Kadabra.png"}},
+          {"4":{"nom" :"Abra Kadabra" ,"type":["", ""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Mega-Alakazam.png"}}
+         ] 
+      }  
+      ],
+      
+  
+   "4":[ 
+          { "Niveau" :[ 
+              {"1":{"nom" :"Bullbizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Bullbizarre.png"}},
+              {"2":{"nom" :"Herbizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Herbizarre.png"}},
+              {"3":{"nom" :"Florizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Florizarre.png"}},
+              {"4":{"nom" :"Mega Florizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Mega-Florizarre.png"}}
+             ] 
+          }  
+      ],
+          
+  
+  "5":[ 
+          { "Niveau" :[ 
+              {"1":{"nom" :"Galekid" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galekid.png"}},
+              {"2":{"nom" :"Galegon" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galegon.png"}},
+              {"3":{"nom" :"Galeking" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galeking.png"}},
+              {"4":{"nom" :"Mega Galeking" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Mega-Galeking.png"}}
+             ] 
+          }  
+      ]
+  
+  }

@@ -1,54 +1,51 @@
 {
-"1":[ 
-       { "Niveau" :[ 
-                     {"1":{"nom" :"Salameche" ,"type":["Feu"], "attaque": 52,"image":"../pokemon/Assets/images/pokemon_images/1_Salameche.png"}},
-                     {"2":{"nom" :"Reptincel" ,"type":["Feu"], "attaque": 62,"image":"../pokemon/Assets/images/pokemon_images/1_Reptincel.png"}},
-                     {"3":{"nom" :"Dracaufeu" ,"type":["Feu" ,"Vol"], "attaque": 82,"image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu.png"}},
-                     {"4":{"nom" :"Dracaufeu Gigamax" ,"type":["Feu","Vol"], "attaque": 99,"image":"../pokemon/Assets/images/pokemon_images/1_Dracaufeu Gigamax.png"}}
-                    ] 
-        } 
-    ],
+    "Niveau1":[
+        {"nom":"Salameche" , "type":"Feu","PV":39 , "Attaque":52 , "AttaqueSp":60 ,"Defense":43 , "Vitesse":65 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/1_Salameche"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/1_Salameche"}] },
+        {"nom":"Carapuce" , "type":"Eau","PV":44 , "Attaque":48 , "AttaqueSp":50 ,"Defense":65 , "Vitesse":43 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/2_Carapuce"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/2_Carapuce"}] },
+        {"nom":"Abra" , "type":"Psy","PV":25 , "Attaque":20 , "AttaqueSp":105 ,"Defense":15 , "Vitesse":90 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/3_Abra"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/3_Abra"}] },
+        {"nom":"Bullbizarre" , "type":"Plante","PV":45 , "Attaque":49 , "AttaqueSp":65 ,"Defense":49 , "Vitesse":45 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/4_Bullbizarre"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/4_Bullbizarre"}] },
+        {"nom":"Galekid" , "type":"Acier","PV":50 , "Attaque":70 , "AttaqueSp":40 ,"Defense":100, "Vitesse":30 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/5_Galekid"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/5_Galekid"}] },
+        {"nom":"Grenousse" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/6_Grenousse"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/6_Grenousse"}] },
+        {"nom":"Gobou" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/7_Gobou"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/7_Gobou"}] },
+        {"nom":"Racaillou" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/8_Racaillou"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/8_Racaillou"}] },
+        {"nom":"Machoc" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/9_Machoc"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/9_Machoc"}] },
+        {"nom":"Kokiyas" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/10_Kokiyas"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/10_Kokiyas"}] },
+        {"nom":"Tarsal" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/11_Tarsal"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/11_Tarsal"}] },
+        {"nom":"Wattouat" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/12_Wattouat"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/12_Wattouat"}] },
+        {"nom":"Mew" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/13_Mew"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/13_Mew"}] },
+        {"nom":"Miaouss" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/14_Miaouss"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/14_Miaouss"}] },
+        {"nom":"Poussifeu" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/15_Poussifeu"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/15_Poussifeu"}] },
+        {"nom":"Evoli" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/16_Evoli"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/16_Evoli"}] },
+        {"nom":"Rocabot" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/17_Rocabot"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/17_Rocabot"}] },
+        {"nom":"Embrylex" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/18_Embrylex"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/18_Embrylex"}] },
+        {"nom":"Vivaldaim" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/19_Vivaldaim"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/19_Vivaldaim"}] },
+        {"nom":"Sabelette" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/20_Sabelette"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/20_Sabelette"}] },
+        {"nom":"Tadmorv" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/21_Tadmorv"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/21_Tadmorv"}] },
+        {"nom":"Kitty" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau1/Droite/22_Skitty"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau1/Gauche/22_Skitty"}] }
+    ] ,
 
-"2":[ 
-    { "Niveau" :[ 
-                     {"1":{"nom" :"Carapuce" ,"type":["Eau"], "attaque": 48,"image":"../pokemon/Assets/images/pokemon_images/2_Carapuce.png"}},
-                     {"2":{"nom" :"Carabaffe" ,"type":["Eau"], "attaque": 52,"image":"../pokemon/Assets/images/pokemon_images/2_Carabaffe.png"}},
-                     {"3":{"nom" :"Tortank" ,"type":["Eau"], "attaque": 75,"image":"../pokemon/Assets/images/pokemon_images/2_Tortank.png"}},
-                     {"4":{"nom" :"Tortank Gigamax" ,"type":["Eau"], "attaque": 95,"image":"../pokemon/Assets/images/pokemon_images/2_Tortank Gigamax.png"}}
-                    ] 
-        } 
- ],
-
- "3":[ 
-    { "Niveau" :[ 
-        {"1":{"nom" :"Abra" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Abra.png"}},
-        {"2":{"nom" :"Alakazem" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Alakazam.png"}},
-        {"3":{"nom" :"Kadabra" ,"type":["",""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Kadabra.png"}},
-        {"4":{"nom" :"Abra Kadabra" ,"type":["", ""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/3_Méga-Alakazam.png"}}
-       ] 
-    }  
-    ],
-    
-
- "4":[ 
-        { "Niveau" :[ 
-            {"1":{"nom" :"Bullbizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Bullbizarre.png"}},
-            {"2":{"nom" :"Herbizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Herbizarre.png"}},
-            {"3":{"nom" :"Florizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Florizzare.png"}},
-            {"4":{"nom" :"Mega Florizarre" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/4_Méga-Florizarre.png"}}
-           ] 
-        }  
-    ],
-        
-
-"5":[ 
-        { "Niveau" :[ 
-            {"1":{"nom" :"Galekid" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galekid.png"}},
-            {"2":{"nom" :"Galegon" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galegon.png"}},
-            {"3":{"nom" :"Galeking" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Galeking.png"}},
-            {"4":{"nom" :"Mega Galeking" ,"type":[""], "attaque": 0,"image":"../pokemon/Assets/images/pokemon_images/5_Méga-Galeking.png"}}
-           ] 
-        }  
+    "Niveau2":[
+        {"nom":"Reptincel" , "type":"Feu","PV":58 , "Attaque":64 , "AttaqueSp":80 ,"Defense":58 , "Vitesse":80 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/1_Reptincel"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/1_Reptincel"}] },
+        {"nom":"Carabaffe" , "type":"Eau","PV":59 , "Attaque":63 , "AttaqueSp":65 ,"Defense":80 , "Vitesse":58 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/2_Carabaffe"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/2_Carabaffe"}] },
+        {"nom":"Alakazam" , "type":"Psy","PV":55 , "Attaque":50 , "AttaqueSp":135 ,"Defense":45 , "Vitesse":120 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/3_Alakazam"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/3_Alakazam"}] },
+        {"nom":"Herbizarre" , "type":"Plante","PV":60 , "Attaque":62 , "AttaqueSp":80 ,"Defense":63 , "Vitesse":60 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/4_Herbizarre"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/4_Herbizarre"}] },
+        {"nom":"Galegon" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/5_Galegon"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/5_Galegon"}] },
+        {"nom":"Craporal" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/6_Craporal"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/6_Craporal"}] },
+        {"nom":"Flobio" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/7_Flobio"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/7_Flobio"}] },
+        {"nom":"Gravalanch" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/8_Gravalanch"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/8_Gravalanch"}] },
+        {"nom":"Machopeur" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/9_Machopeur"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/9_Machopeur"}] },
+        {"nom":"Crustabri" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/10_Crustabri"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/10_Crustabri"}] },
+        {"nom":"Kirlia" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/11_Kirlia"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/11_Kirlia"}] },
+        {"nom":"Lainergie" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/12_Lainergie"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/12_Lainergie"}] },
+        {"nom":"Mega-Mew" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/13_Mega-Mew"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/13_Mega-Mew"}] },
+        {"nom":"Miaouss d'Alola" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/14_Miaouss d'Alola"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/14_Miaouss d'Alola"}] },
+        {"nom":"Galifeu" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/15_Galifeu"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/15_Galifeu"}] },
+        {"nom":"Pyroli" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/16_Pyroli"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/16_Pyroli"}] },
+        {"nom":"Mega-Racobot" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/17_Mega-Racobot"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/17_Mega-Rocabot"}] },
+        {"nom":"Tyranocif" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/18_Tyranocif"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/18_Tyranocif"}] },
+        {"nom":"Mega-Vivaldaim" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/19_Mega-Vivaldaim"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/19_Mega-Vivaldaim"}] },
+        {"nom":"Sablaireau" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/20_Sablaireau"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/20_Sablaireau"}] },
+        {"nom":"Grotadmorv" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/21_Grotadmorv"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/21_Grotadmorv"}] },
+        {"nom":"Delcatty" , "type":"","PV":0 , "Attaque":0 , "AttaqueSp":0 ,"Defense":0 , "Vitesse":0 , "image":[{"droite":"../pokemone/pokemon/Assets/images/Niveau2/Droite/22_Delcatty"},{"Gauche":"../pokemone/pokemon/Assets/images/Niveau2/Gauche/22_Skitty"}] }
     ]
-
 }

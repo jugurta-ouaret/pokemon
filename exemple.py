@@ -10,32 +10,20 @@ screen = pygame.display.set_mode((screen_width, screen_height))
 pygame.display.set_caption("Pokedex")
 
 #récupérer les données de dictionnaire 
-with open("../pokemon/dict_Json/pokedex.json", "r") as f:
+with open("../pokemon/dict_Json/pokemon.json", "r") as f:
     data=json.load(f)
     
-    # Récupérer le nom du pokemon1 de niveau1
-    image1 = data["pokemon1"][1]["Niveau1"]["image"]
-    image2 = data["pokemon1"][1]["Niveau2"]["image"]
-    image3 = data["pokemon1"][1]["Niveau3"]["image"]
-    image4 = data["pokemon1"][1]["Niveau4"]["image"]
+# Boucle pour récupérer les images de chaque ligne de niveau "1"
+images=[]
+for level in data.values(): 
+   for pokemon in level[0]["Niveau"]: 
+      for image_url in pokemon["1"]: 
+        image=image_url["image"]
+        image1 = pygame.image.load(image)
+        image_1 = pygame.transform.scale(image1, (100, 100))
+        # Liste des images
+        images.append(image_1)
 
-
-# Chargement des images
-image_1 = pygame.image.load(image1)
-image_1 = pygame.transform.scale(image_1, (100, 100))
-
-
-image_2 = pygame.image.load(image2)
-image_2 = pygame.transform.scale(image_2, (100, 100))
-
-image_3 = pygame.image.load(image3)
-image_3 = pygame.transform.scale(image_3, (100, 100))
-
-image_4 = pygame.image.load(image4)
-image_4 = pygame.transform.scale(image_4, (100, 100))
-
-# Liste des images
-images = [image_1, image_2 , image_3 , image_4] 
 
 # Boucle principale du jeu
 running = True
@@ -56,3 +44,5 @@ while running:
     pygame.display.flip()
 
 pygame.quit()
+
+
