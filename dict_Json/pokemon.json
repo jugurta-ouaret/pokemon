@@ -1,0 +1,15 @@
+{
+    "Niveau1":[
+        {"nom":"Salameche" , "type":"Feu","PV":39 , "Attaque":52 , "AttaqueSp":60 ,"Defense":43 , "Vitesse":65 , "image":[{"droite":"../pokemon/Assets/images/Niveau1/Droite/1_Salameche.png"},{"Gauche":"../pokemon/Assets/images/Niveau1/Gauche/1_Salameche.png"}] },
+        {"nom":"Carapuce" , "type":"Eau","PV":44 , "Attaque":48 , "AttaqueSp":50 ,"Defense":65 , "Vitesse":43 , "image":[{"droite":"../pokemon/Assets/images/Niveau1/Droite/2_Carapuce.png"},{"Gauche":"../pokemon/Assets/images/Niveau1/Gauche/2_Carapuce.png"}] },
+        {"nom":"Abra" , "type":"Psy","PV":25 , "Attaque":20 , "AttaqueSp":105 ,"Defense":15 , "Vitesse":90 , "image":[{"droite":"../pokemon/Assets/images/Niveau1/Droite/3_Abra.png"},{"Gauche":"../pokemon/Assets/images/Niveau1/Gauche/3_Abra.png"}] },
+        {"nom":"Bullbizarre" , "type":"Plante","PV":45 , "Attaque":49 , "AttaqueSp":65 ,"Defense":49 , "Vitesse":45 , "image":[{"droite":"../pokemon/Assets/images/Niveau1/Droite/4_Bullbizarre.png"},{"Gauche":"../pokemon/Assets/images/Niveau1/Gauche/4_Bullbizarre.png"}] }
+    ] ,
+
+    "Niveau2":[
+        {"nom":"Reptincel" , "type":"Feu","PV":58 , "Attaque":64 , "AttaqueSp":80 ,"Defense":58 , "Vitesse":80 , "image":[{"droite":"../pokemon/Assets/images/Niveau2/Droite/1_Reptincel"},{"Gauche":"../pokemon/Assets/images/Niveau2/Gauche/1_Reptincel"}] },
+        {"nom":"Carabaffe" , "type":"Eau","PV":59 , "Attaque":63 , "AttaqueSp":65 ,"Defense":80 , "Vitesse":58 , "image":[{"droite":"../pokemon/Assets/images/Niveau2/Droite/2_Carabaffe"},{"Gauche":"../pokemon/Assets/images/Niveau2/Gauche/2_Carabaffe"}] },
+        {"nom":"Alakazam" , "type":"Psy","PV":55 , "Attaque":50 , "AttaqueSp":135 ,"Defense":45 , "Vitesse":120 , "image":[{"droite":"../pokemon/Assets/images/Niveau2/Droite/3_Alakazam"},{"Gauche":"../pokemon/Assets/images/Niveau2/Gauche/3_Alakazam"}] },
+        {"nom":"Herbizarre" , "type":"Plante","PV":60 , "Attaque":62 , "AttaqueSp":80 ,"Defense":63 , "Vitesse":60 , "image":[{"droite":"../pokemon/Assets/images/Niveau2/Droite/4_Herbizarre.png"},{"Gauche":"../pokemon/Assets/images/Niveau2/Gauche/4_Herbizarre.png"}] }
+    ]
+}
