@@ -1,6 +1,7 @@
 import pygame
 import json
 
+
 # Initialiser Pygame
 pygame.init()
 
@@ -19,7 +20,7 @@ pokemon_vitesses = [pokemon['Vitesse'] for pokemon in pokemon_data['Niveau1']]
 pokemon_attaques_sups = [pokemon['AttaqueSp'] for pokemon in pokemon_data['Niveau1']]
 
 # Fonction pour afficher le profil du Pokémon
-def afficher_profil_pokemon(nom, type_pokemon, PV, attaque, defense, vitesse, attaque_sup, image_path):
+def afficher_profil_pokemon(nom):
     pygame.init()
     
     # Dimensions de la fenêtre
@@ -40,6 +41,31 @@ def afficher_profil_pokemon(nom, type_pokemon, PV, attaque, defense, vitesse, at
     background.fill(WHITE)
     screen.blit(background, (0, 0))
 
+    # Charger les données du dictionnaire
+    with open("../pokemon/dict_Json/pokemon.json", "r") as f:
+        pokemon_data = json.load(f)
+
+    # Extraire les informations sur les Pokémon
+    pokemon_images = [pokemon['image'][1]['Gauche'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_noms = [pokemon['nom'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_types = [pokemon['type'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_PVs = [pokemon['PV'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_attaques = [pokemon['Attaque'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_defenses = [pokemon['Defense'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_vitesses = [pokemon['Vitesse'] for pokemon in pokemon_data['Niveau1']]
+    pokemon_attaques_sups = [pokemon['AttaqueSp'] for pokemon in pokemon_data['Niveau1']]
+    #récupérer l'index  de nom de  pokemon
+    index=pokemon_noms.index(nom)
+
+    #récupérer le reste des infos 
+    type_pokemon = pokemon_types[index]
+    PV=pokemon_PVs[index]
+    attaque=pokemon_attaques[index]
+    defense=pokemon_defenses[index]
+    vitesse=pokemon_vitesses[index]
+    attaque_sup=pokemon_attaques_sups[index]
+    image_path=pokemon_images[index]
+    
     # Titre "Profil"
     font_titre = pygame.font.Font(None, 70)
     texte_titre = font_titre.render(f"{nom}", True, (0, 0, 0))
@@ -80,6 +106,15 @@ def afficher_profil_pokemon(nom, type_pokemon, PV, attaque, defense, vitesse, at
     choisir_rect = texte_choisir.get_rect(center=choisir_button_rect.center)
     screen.blit(texte_choisir, choisir_rect)
 
+    # Bouton "Retour"
+    retour_button_rect = pygame.Rect(40, HEIGHT - 50, 120, 40)
+    pygame.draw.rect(screen, (255, 0, 0), retour_button_rect)
+    font_retour = pygame.font.Font(None, 28)
+    texte_retour = font_retour.render("Retour", True, WHITE)
+    retour_rect = texte_retour.get_rect(center=retour_button_rect.center)
+    screen.blit(texte_retour, retour_rect)
+
+
     pygame.display.flip()
 
     # Boucle principale
@@ -92,6 +127,12 @@ def afficher_profil_pokemon(nom, type_pokemon, PV, attaque, defense, vitesse, at
                 # Vérifier si le clic est sur le bouton "Choisir"
                 if choisir_button_rect.collidepoint(event.pos):
                     print("Bouton Choisir cliqué!")
+
+                # Vérifier si le clic est sur le bouton "Retour"
+                elif retour_button_rect.collidepoint(event.pos):
+                    running = False
+                   
+
 
     pygame.quit()
 
