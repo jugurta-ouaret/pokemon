@@ -102,7 +102,7 @@ class Pokemon(pygame.sprite.Sprite):
         # Redimensionne le sprite
         self.sprite = pygame.transform.scale(self.sprite, (self.size, self.size))
      
-    # Def de la méthode pour attaquer   
+    # Def de la méthode pour recup les attaque des pokemons
     def set_moves(self, moves_data):
         # moves_data est le nom du fichier JSON qui contient les données des attaques
         
