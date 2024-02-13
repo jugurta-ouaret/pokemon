@@ -78,9 +78,26 @@ class Pokemon(pygame.sprite.Sprite):
         for i in range(len(self.type)):
             type = self.json['type'][i]
             self.types.append(type)
-         
-        #    
+            
+        # Taille du sprite    
         self.size = 150
             
         # Charge l'image du pokemon de droite lors du choix de pokemon
         self.set_sprite('droite')
+     
+    # Def de la méthode pour se soigner   
+    def use_potion(self):
+        # verifier si le joueur a des potions restantes
+        if self.num_potions > 0:
+            # ajout de 10 PV mais pas plus que le MAX_PV
+            self.PV += 10
+            if self.PV > self.MAX_PV:
+                self.PV = self.MAX_PV
+            # -1 sur 3 utilisation de potion
+            self.num_potions -= 1
+        
+    def set_sprite(self, direction):
+        # Le path des sprites / importation des sprites
+        self.sprite = pygame.image.load(f'assets/images/sprites/{self.name}/{direction}.png')
+        # Redimensionne le sprite
+        self.sprite = pygame.transform.scale(self.sprite, (self.size, self.size))
