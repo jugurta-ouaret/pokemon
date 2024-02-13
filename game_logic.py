@@ -129,3 +129,32 @@ class Pokemon(pygame.sprite.Sprite):
         # si le Pokémon a plus de 4 attaques, en choisir aléatoirement 4
         if len(self.moves) > 4:
             self.moves = random.sample(self.moves, 4)
+            
+    # Dessine le sprite du pokémon
+    def draw(self, alpha = 255):
+        sprite = self.sprite.copy()
+        transparence = (255, 255, 255, alpha)
+        sprite.fill(transparence, None, pygame.BLEND_RGBA_MULT)
+        game.blit(sprite, (self.x, self.y))
+    
+    # Dessine la barre de PV
+    def draw_pv(self):
+        barre_scale = 300 // self.MAX_PV
+        for i in range(self.MAX_PV):
+            barre = (self.PV_x + barre_scale * i, self.PV_y, barre_scale, 20)
+            pygame.draw.rect(game, rouge, barre)
+
+        for i in range(self.PV):
+            barre = (self.PV_x + barre_scale * i, self.PV_y, barre_scale, 20)
+            pygame.draw.rect(game, vert, barre)
+
+        # dessiner le texte des PV    
+        font = pygame.font.Font(pygame.font.get_default_font(), 30)
+        text = font.render(f"PV : {self.PV} / {self.MAX_PV}", True, noir)
+        text_rect = text.get_rect()
+        text_rect.x = self.PV_x
+        text_rect.y = self.PV_y + 30
+        game.blit(text, text_rect)
+        
+    def get_rect(self):
+        return pygame.Rect(self.x, self.y, self.size, self.size)
