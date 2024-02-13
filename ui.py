@@ -16,3 +16,19 @@ def affiche_message(message):
     game.blit(text, text_rect)
     
     pygame.display.update()
+    
+# Def methodes pour afficher les boutons   
+def create_button(width, height, left, top , text_cx, text_cy, label):
+    mouse = pygame.mouse.get_pos()
+    button = Rect(left, top, width, height)
+    if button.collidepoint(mouse):
+        pygame.draw.rect(game, gold, button)
+    else:
+        pygame.draw.rect(game, blanc, button)
+        
+    font = pygame.font.Font(pygame.font.get_default_font(), 36)
+    text = font.render(f"{label}", True, noir)
+    text_rect = text.get_rect(center=(text_cx, text_cy))
+    game.blit(text, text_rect)
+    
+    return button

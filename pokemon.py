@@ -4,9 +4,7 @@ from game_logic import *
 
 
 # Instancier les pokemons
-
 niveau = 10
-
 bullbizarre = Pokemon("Bullbizarre", niveau, 25, 100)
 salameche = Pokemon("Salameche", niveau, 175, 100)
 carapuce = Pokemon("Carapuce", niveau, 325, 100)
