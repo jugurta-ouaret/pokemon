@@ -101,3 +101,31 @@ class Pokemon(pygame.sprite.Sprite):
         self.sprite = pygame.image.load(f'assets/images/sprites/{self.name}/{direction}.png')
         # Redimensionne le sprite
         self.sprite = pygame.transform.scale(self.sprite, (self.size, self.size))
+     
+    # Def de la méthode pour attaquer   
+    def set_moves(self, moves_data):
+        # moves_data est le nom du fichier JSON qui contient les données des attaques
+        
+        # self.moves est une liste qui contiendra les attaques du pokémon
+        self.moves = []
+        
+        # importe les données des attaques depuis le fichier JSON
+        with open(moves_json, 'r') as file:
+           moves_data_all = json.load(file)
+    
+        # parcour les noms des attaques fournis
+        for move_name in moves_data:
+            
+            # rechercher l'attaque dans les données de toutes les attaques
+            for move_data in moves_data_all['moves']:
+                
+                # si le nom de l'attaque correspond à celui fourni
+                if move_data['name'] == move_name:
+                    # ajouter l'attaque à la liste des attaques du Pokémon
+                    move = Move(move_name)
+                    self.moves.append(move)
+                    break  # sortir de la boucle interne
+                
+        # si le Pokémon a plus de 4 attaques, en choisir aléatoirement 4
+        if len(self.moves) > 4:
+            self.moves = random.sample(self.moves, 4)
