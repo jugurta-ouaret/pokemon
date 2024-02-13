@@ -45,7 +45,7 @@ class Move():
 # Classe Pokemon
 class Pokemon(pygame.sprite.Sprite):
     
-    # définir la méthode d'initialisation de la classe
+    # Def des attributs
     def __init__(self, name, niveau, x, y):
         with open(pokemon_json, "r") as file:
             data = json.load(file)
@@ -78,8 +78,9 @@ class Pokemon(pygame.sprite.Sprite):
         for i in range(len(self.type)):
             type = self.json['type'][i]
             self.types.append(type)
-            
+         
+        #    
         self.size = 150
             
-        # 
+        # Charge l'image du pokemon de droite lors du choix de pokemon
         self.set_sprite('droite')
