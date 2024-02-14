@@ -26,7 +26,7 @@ while game_status != "quit":
         if event.type == MOUSEBUTTONDOWN:
             
             #Si on clique sur un pokemon
-                mouse_click = event.pos
+                mouse_click = pygame.mouse.get_pos()
 
                 #Si on est en train de choisir un pokemon
                 if game_status == "choix pokemon":
@@ -58,15 +58,16 @@ while game_status != "quit":
                 game_status = "joueur attaque"
                 
             if potion_button.collidepoint(mouse_click):
-               if player_pokemon.use_potion() == 0:
+                if not player_pokemon.use_potion():
                     display_text = "Vous n'avez plus de potions"
                     affiche_message(display_text)
                     time.sleep(2)
-                    game_status = "joueur attaque"
-               else:
-                   player_pokemon.use_potion()
-                   display_text = f"{player_pokemon.name} a utilisé une potion"
-                   affiche_message(display_text)                    
+                else:
+                    display_text = f"{player_pokemon.name} a utilisé une potion"
+                    affiche_message(display_text)
+
+                game_status = "joueur attaque"
+             
             
     if game_status == "choix pokemon":
         game.fill(blanc)

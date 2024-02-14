@@ -1,6 +1,20 @@
 import pygame
 from pygame.locals import *
-from game_logic import *
+
+#Taille de la fenêtre
+Hauteur = 720
+Largeur = 1280
+Taille = (Largeur, Hauteur)
+game = pygame.display.set_mode(Taille)
+pygame.display.set_caption("PokeWorld - Battle by J.A.R")
+
+#Les couleurs
+blanc = (255, 255, 255)
+noir = (0, 0, 0)
+gold = (255, 215, 0)
+vert = (0, 255, 0)
+rouge = (255, 0, 0)
+gris = (128, 128, 128)
 
 
 # Def methodes pour afficher les textes

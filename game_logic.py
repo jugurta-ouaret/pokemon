@@ -1,24 +1,12 @@
 import pygame
 from pygame.locals import *
+from ui import *
 import random
 import json
+import time
+import math 
 
 pygame.init()
-
-#Taille de la fenêtre
-Hauteur = 720
-Largeur = 1280
-Taille = (Largeur, Hauteur)
-game = pygame.display.set_mode(Taille)
-pygame.display.set_caption("PokeWorld - Battle by J.A.R")
-
-#Les couleurs
-blanc = (255, 255, 255)
-noir = (0, 0, 0)
-gold = (255, 215, 0)
-vert = (0, 255, 0)
-rouge = (255, 0, 0)
-gris = (128, 128, 128)
 
 # Path to the json files
 moves_json = "json/moves.json"
@@ -84,6 +72,35 @@ class Pokemon(pygame.sprite.Sprite):
             
         # Charge l'image du pokemon de droite lors du choix de pokemon
         self.set_sprite('droite')
+    
+
+    def effectue_attaque(self, autre, move):
+        affiche_message(f"{self.name} utilise {move.name}")
+        
+        #pause de 2 secondes
+        time.sleep(2)
+        
+        # Calcul des dégâts
+        degats = (2 * self.niveau + 10) / 250 * (self.Attaque / autre.Defense) * move.power
+        if move.type in autre.types:
+            degats *= 2
+            affiche_message("C'est super efficace !")
+            
+        random_num = random.randint(1, 10000)
+        if random_num < 625:
+            degats *= 2
+            affiche_message("Coup critique !")
+            
+        degats = math.floor(degats)
+        
+        autre.subir_degats(degats)
+        
+    def subir_degats(self, degats):
+        self.PV -= degats
+        if self.PV < 0:
+            self.PV = 0
+        affiche_message(f"{self.name} a subi {degats} dégâts")
+    
      
     # Def de la méthode pour se soigner   
     def use_potion(self):
@@ -95,6 +112,7 @@ class Pokemon(pygame.sprite.Sprite):
                 self.PV = self.MAX_PV
             # -1 sur 3 utilisation de potion
             self.num_potions -= 1
+
         
     def set_sprite(self, direction):
         # Le path des sprites / importation des sprites
