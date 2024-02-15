@@ -1,0 +1,89 @@
+{
+    "moves": [
+        {
+            "name": "flammeche",
+            "power": 40,
+            "type": "Feu"
+        },
+        {
+            "name": "griffe",
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "name": "tranche",
+            "power": 70,
+            "type": "Feu"
+        },
+        {
+            "name": "feud'enfer",
+            "power": 70,
+            "type": "Feu"
+        },
+        {
+            "name": "pistolet a o",
+            "power": 40,
+            "type": "Eau"
+        },
+        {
+            "name": "choc mental",
+            "power": 50,
+            "type": "Psy"
+        },
+        {
+            "name": "tranch'herbe",
+            "power": 55,
+            "type": "Plante"
+        },
+        {
+            "name": "tete de fer",
+            "power": 80,
+            "type": "Acier"
+        },
+        {
+            "name": "fouet lianes",
+            "power": 45,
+            "type": "Plante"
+        },
+        {
+            "name": "laser glace",
+            "power": 90,
+            "type": "Glace"
+        },
+        {
+            "name": "seisme",
+            "power": 100,
+            "type": "Sol"
+        },
+        {
+            "name": "ecume",
+            "power": 40,
+            "type": "Eau"
+        },
+        {
+            "name": "hydrocanon",
+            "power": 110,
+            "type": "Eau"
+        },
+        {
+            "name": "charge",
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "name": "griffe",
+            "power": 40,
+            "type": "Normal"
+        },
+        {
+            "name": "morsure",
+            "power": 60,
+            "type": "Psy"
+        },
+        { 
+            "name": "psyko",
+            "power": 90,
+            "type": "Psy"
+        }
+    ]
+}

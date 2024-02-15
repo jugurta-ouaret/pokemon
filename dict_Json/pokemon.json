@@ -1,0 +1,28 @@
+{
+    "Niveau1":[
+        {"nom":"Salameche" , "type":"Feu","PV":39 , "Attaque":52 , "AttaqueSp":60 ,"Defense":43 , "Vitesse":65 ,"moves":["flammeche","griffe","tranche","feu d'enfer"], "image":"../Pokemon/Assets/images/sprites/Salameche/gauche.png" },
+        {"nom":"Carapuce" , "type":"Eau","PV":44 , "Attaque":48 , "AttaqueSp":50 ,"Defense":65 , "Vitesse":43 ,"moves":["pistolet a o", "ecume", "hydrocanon", "laser glace"], "image": "../Pokemon/Assets/images/sprites/Carapuce/gauche.png"},
+        {"nom":"Abra" , "type":"Psy","PV":25 , "Attaque":20 , "AttaqueSp":105 ,"Defense":15 , "Vitesse":90 ,"moves":["psyko", "choc mental"], "image": "../Pokemon/Assets/images/sprites/Abra/gauche.png"},
+        {"nom":"Bullbizarre" , "type":"Plante","PV":45 , "Attaque":49 , "AttaqueSp":65 ,"Defense":49 , "Vitesse":45 ,"moves":["fouet lianes","tranche","laser glace","seisme"], "image": "../Pokemon/Assets/images/sprites/Bullbizarre/gauche.png"},
+        {"nom":"Galekid" , "type":"Acier","PV":50 , "Attaque":70 , "AttaqueSp":40 ,"Defense":100, "Vitesse":30 ,"moves":["charge", "griffe", "tranche", "morsure"], "image":"../Pokemon/Assets/images/sprites/Galekid/gauche.png" },
+        {"nom":"Grenousse" , "type":"Eau","PV":41 , "Attaque":56 , "AttaqueSp":62 ,"Defense":40 , "Vitesse":71 ,"moves":["pistolet a o","ecume"], "image":"../Pokemon/Assets/images/sprites/Grenousse/gauche.png"},
+        {"nom":"Gobou" , "type":"Eau","PV":50 , "Attaque":70 , "AttaqueSp":50 ,"Defense":50 , "Vitesse":40 ,"moves":["pistolet a o","ecume","hydrocanon"], "image": "../Pokemon/Assets/images/sprites/Gobou/gauche.png"},
+        {"nom":"Racaillou" , "type":"Roche","PV":40 , "Attaque":80 , "AttaqueSp":30 ,"Defense":100 , "Vitesse":20 ,"moves":["seisme","charge","tete de fer"], "image":"../Pokemon/Assets/images/sprites/Racaillou/gauche.png"},
+        {"nom":"Machoc" , "type":"Combat","PV":70 , "Attaque":80 , "AttaqueSp":35 ,"Defense":50 , "Vitesse":35 ,"moves":["griffe","tete de fer"], "image":"../Pokemon/Assets/images/sprites/Machoc/gauche.png"},
+        {"nom":"Kokiyas" , "type":"Eau","PV":30 , "Attaque":65 , "AttaqueSp":45 ,"Defense":100 , "Vitesse":40 ,"moves":["hydrocanon","pistolet a o"], "image":"../Pokemon/Assets/images/sprites/Kokiyas/gauche.png" },
+        {"nom":"Tarsal" , "type":"Psy","PV":28 , "Attaque":25 , "AttaqueSp":45 ,"Defense":25 ,"Vitesse":40 ,"moves":["choc mental","psyko"], "image": "../Pokemon/Assets/images/sprites/Tarsal/gauche.png"},
+        {"nom":"Wattouat" , "type":"Elictrik","PV":55 , "Attaque":40 , "AttaqueSp":65 ,"Defense":40 , "Vitesse":35 ,"moves":["charge","choc mental"], "image":"../Pokemon/Assets/images/sprites/Wattouat/gauche.png" },
+        {"nom":"Mew" , "type":"Psy","PV":100 , "Attaque":100 , "AttaqueSp":100 ,"Defense":100 , "Vitesse":100 ,"moves":["choc mental","psyko","morsure"], "image":"../Pokemon/Assets/images/sprites/Mew/gauche.png"},
+        {"nom":"Miaouss" , "type":"Normal","PV":40 , "Attaque":45 , "AttaqueSp":40 ,"Defense":35 , "Vitesse":90 ,"moves":["griffe","morsure"], "image":"../Pokemon/Assets/images/sprites/Miaouss/gauche.png"},
+        {"nom":"Poussifeu" , "type":"Feu","PV":45 , "Attaque":60 , "AttaqueSp":70 ,"Defense":40 , "Vitesse":45 ,"moves":["tranche","feud'enfer"], "image":"../Pokemon/Assets/images/sprites/Poussifeu/gauche.png"},
+        {"nom":"Evoli" , "type":"Normal","PV":55 , "Attaque":55 , "AttaqueSp":45 ,"Defense":50 , "Vitesse":55 ,"moves":["griffe"], "image":"../Pokemon/Assets/images/sprites/Evoli/gauche.png"},
+        
+        {"nom":"Embrylex" , "type":"Sol","PV":50 , "Attaque":64 , "AttaqueSp":45 ,"Defense":50 , "Vitesse":50 ,"moves":["seisme","tete de fer"], "image":"../Pokemon/Assets/images/sprites/Embrylex/gauche.png"},
+        {"nom":"Vivaldaim" , "type":"Plante","PV":60 , "Attaque":60 , "AttaqueSp":40 ,"Defense":50 , "Vitesse":75 ,"moves":["tranch'herbe","fouet lianes"],"image": "../Pokemon/Assets/images/sprites/Vivaldaim/gauche.png"},
+        {"nom":"Sabelette" , "type":"Sol","PV":50 , "Attaque":75 , "AttaqueSp":20 ,"Defense":85 , "Vitesse":40 ,"moves":["charge","seisme","tete de fer"], "image": "../Pokemon/Assets/images/sprites/Sabelette/gauche.png"},
+        {"nom":"Tadmorv" , "type":"Poison","PV":80 , "Attaque":80 , "AttaqueSp":40 ,"Defense":50 , "Vitesse":25 ,"moves":["fouet lianes"], "image": "../Pokemon/Assets/images/sprites/Tadmorv/gauche.png"},
+        {"nom":"Skitty" , "type":"Normal","PV":50 , "Attaque":45 , "AttaqueSp":35 ,"Defense":45 , "Vitesse":50 ,"moves":["charge","griffe","morsure"], "image": "../Pokemon/Assets/images/sprites/Skitty/gauche.png"}
+    ] 
+
+    
+}
